@@ -1,0 +1,37 @@
+h1{
+    font-size: 40px;
+}
+label{
+    font-size: 30px;
+    font-weight: bolder;
+}
+input{
+    font-size: 25px;
+    border-radius: 10px;
+}
+button{
+    background-color: rgb(93, 240, 205);
+    font-size: 25px;
+    border-radius: 10px;
+    display: block;
+    position: relative;
+    left: 30%;
+    margin-top: 15px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    /* border: 3px solid black; */
+    box-shadow: 2px 2px 10px #444;
+    border-radius: 40px;
+    padding: 30px;
+}
+#result{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
